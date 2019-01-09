@@ -1,6 +1,6 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks(block1, block2) {
-  if (block2 <= 42);
-    return `${block2} - ${block1}`;
+function distanceFromHqInBlocks(distance) {
+  if (distance <= 42);
+    return distance - 42`;
   
 }
