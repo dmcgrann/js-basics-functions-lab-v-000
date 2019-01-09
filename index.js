@@ -26,6 +26,6 @@ function distanceTravelledInFeet(block1, block2) {
 function calculatesFarePrice(block1, block2) {
   let distance = (distanceTravelledInFeet(block1, block2);
   if (distance >= 2500) {
-    return ;
-  } else if (distance )
+    return "cannot travel that far";
+  } else if (distance > )
 }
