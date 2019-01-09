@@ -26,5 +26,7 @@ function distanceTravelledInFeet(block1, block2) {
 function calculatesFarePrice(block1, block2) {
   if (distanceTravelledInFeet(block1, block2) <= 400) {
     return 0;
+  } else if (distanceTravelledInFeet(block1, block2) <= 400 && (distanceTravelledInFeet(block1, block2) >= 2000) {
+    return *.02;
   }
 }
