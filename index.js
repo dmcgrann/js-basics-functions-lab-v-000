@@ -25,6 +25,6 @@ function distanceTravelledInFeet(block1, block2) {
 
 function calculatesFarePrice(price) {
   if (distanceTravelledInFeet(block1, block2) =< 400) {
-    return ""
+    return "Free sample.";
   }
 }
