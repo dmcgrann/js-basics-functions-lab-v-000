@@ -11,10 +11,7 @@ function distanceFromHqInFeet(distance) {
   return distanceFromHqInBlocks(distance) * 264;
 }
 
-function distanceTravelledInFeet(distance) {
-  let block1;
-  let block2;
-  if (block2 - block1 = distance) {
-    return distanceFromHqInFeet(distance);
+function distanceTravelledInBlocks(block1, block2) {
+  return distanceFromHqInFeet(distance);
   }
 }
