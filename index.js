@@ -12,5 +12,9 @@ function distanceFromHqInFeet(distance) {
 }
 
 function distanceTravelledInFeet(distance) {
-  return distanceFromHqInBlocks(distance) * distanceFromHqInFeet(distance);
+  let block1;
+  let block2;
+  if (block2 - block1 = distance) {
+    return distanceFromHqInFeet(distance);
+  }
 }
