@@ -33,6 +33,6 @@ function calculatesFarePrice(block1, block2) {
   } else if (distance > 2000) {
     return 25;
   } else {
-    return distance * .02;
+    return (distance - 400) * .02;
   }
 }
