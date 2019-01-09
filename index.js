@@ -12,7 +12,13 @@ function distanceFromHqInFeet(distance) {
 }
 
 function distanceTravelledInBlocks(block1, block2) {
-  
-  return distanceFromHqInFeet(distance);
+   if (block1 <= block2) {
+    return block2 - block1;
+  } else {
+    return block1 - block2;
   }
+}
+
+function distanceTravelledInFeet(block1, block2) {
+  return distanceTravelledInBlocks(block1, block2) * 264;
 }
