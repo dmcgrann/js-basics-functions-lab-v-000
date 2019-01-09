@@ -23,8 +23,8 @@ function distanceTravelledInFeet(block1, block2) {
   return distanceTravelledInBlocks(block1, block2) * 264;
 }
 
-function calculatesFarePrice(price) {
-  if (distanceTravelledInFeet =< 400) {
+function calculatesFarePrice(block1, block2) {
+  if (distanceTravelledInFeet(block1, block2) =< 400) {
     return "Free sample.";
   }
 }
